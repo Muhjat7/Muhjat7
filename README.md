@@ -4,10 +4,11 @@ Nim : 312210481
 
 
 
-<h2>layout Main Activity </h2>
-
+# <h2>layout Main Activity </h2>
+```
     <?xml version="1.0" encoding="utf-8"?>
-    <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    <?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -16,16 +17,31 @@ Nim : 312210481
 
     <Button
         android:id="@+id/button_toast"
-        android:layout_width="421dp"
-        android:layout_height="48dp"
+        android:layout_width="226dp"
+        android:layout_height="52dp"
         android:layout_marginTop="4dp"
         android:background="@color/colorPrimary"
         android:onClick="setLimit"
         android:text="Limit"
         android:textColor="@android:color/white"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.987"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="185dp"
+        android:layout_height="58dp"
+        android:layout_marginTop="4dp"
+        android:background="@color/colorPrimary"
+        android:text="Toast"
+        android:textColor="@android:color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
 
     <Button
         android:id="@+id/button2"
@@ -71,9 +87,10 @@ Nim : 312210481
         app:layout_constraintTop_toBottomOf="@+id/button_toast"
         tools:ignore=",Rtlcompat" />
 
-    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
+```
 
-<h2>Main Activity Java</h2>
+## <h2>Main Activity Java</h2>
 
     package com.example.toast;
 
