@@ -1,6 +1,7 @@
 <h1>deret bilangan </h1>
 Nama : Muhamad Jati Wasesa <br>
-Nim : 312210481
+Nim : 312210481 <br>
+kelas :TI.22.A.5
 
 
 
